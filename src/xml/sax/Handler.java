@@ -41,6 +41,9 @@ public class Handler extends DefaultHandler{
 		if(qName.equalsIgnoreCase("gender")){
 			gender=true;
 		}
+		
+	
+		System.out.println(qName); //태그 이름들 출력-> 테이블에는 컬럼네임에 대응하는 개념
 	}
 
 
